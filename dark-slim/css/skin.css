@@ -416,9 +416,7 @@ div.mce-fullscreen{
 }
 .mce-top-part{
 	position: relative;
-	background: #1d1d1d; /* TODO 1 */
-	background: #3e3e3e; /* TODO 2 */
-	border-bottom: 1px solid #555; /* TODO 2 */
+	background: #1d1d1d;
 }
 .mce-top-part::before{
 	content: '';
@@ -442,8 +440,7 @@ div.mce-fullscreen{
 	z-index: 65537;
 }
 .mce-menubar .mce-menubtn *{
-	background: #1d1d1d; /* TODO 1 */
-	background: #3e3e3e; /* TODO 2 */
+	background: #1d1d1d;
 }
 .mce-menubar .mce-menubtn:hover,
 .mce-menubar .mce-menubtn:hover *,
@@ -451,18 +448,12 @@ div.mce-fullscreen{
 .mce-menubar .mce-menubtn:focus *,
 .mce-menubar .mce-menubtn.mce-active,
 .mce-menubar .mce-menubtn.mce-active *{
-	color: #ccc; /* TODO 2 */
 	background: #3e3e3e;
 }
 .mce-menubar .mce-menubtn button:active{
 	-webkit-box-shadow: none !important;
 	-moz-box-shadow: none !important;
 	box-shadow: none !important;
-}
-.mce-menubar .mce-menubtn:hover .mce-caret,
-.mce-menubar .mce-menubtn:focus .mce-caret,
-.mce-menubar .mce-menubtn.mce-active .mce-caret{
-	border-top-color: #ccc; /* TODO 2 */
 }
 
 /* Toolbar */
@@ -476,8 +467,7 @@ div.mce-fullscreen{
 	padding: 4px 10px;
 }
 .mce-toolbar-grp .mce-btn *:not(.mce-preview){
-	background: #1d1d1d; /* TODO 1 */
-	background: #3e3e3e; /* TODO 2 */
+	background: #1d1d1d;
 }
 .mce-toolbar-grp .mce-btn:not(.mce-disabled):hover,
 .mce-toolbar-grp .mce-btn:not(.mce-disabled):hover *:not(.mce-preview),
@@ -485,8 +475,7 @@ div.mce-fullscreen{
 .mce-toolbar-grp .mce-btn:not(.mce-disabled):focus *:not(.mce-preview),
 .mce-toolbar-grp .mce-btn.mce-active *{
 	color: #ccc;
-	background: #1d1d1d; /* TODO 1 */
-	background: #3e3e3e; /* TODO 2 */
+	background: #1d1d1d;
 }
 .mce-toolbar-grp .mce-btn button:active{
 	-webkit-box-shadow: none !important;
@@ -494,8 +483,7 @@ div.mce-fullscreen{
 	box-shadow: none !important;
 }
 .mce-toolbar-grp .mce-btn.mce-active *{
-	background: #3e3e3e !important; /* TODO 1 */
-	background: #4e4e4e !important; /* TODO 2 */
+	background: #3e3e3e !important;
 }
 .mce-toolbar-grp .mce-listbox.mce-active *,
 .mce-toolbar-grp .mce-listbox.mce-active:hover *,
