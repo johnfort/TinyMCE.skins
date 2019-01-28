@@ -3,7 +3,7 @@
  * Not supported MS IE!
  *
  * @author	John Fort
- * @date 	25.01.2019
+ * @date 	28.01.2019
  * @link 	https://github.com/johnfort/TinyMCE.skins
  **/
 
@@ -485,6 +485,7 @@ div.mce-fullscreen{
 .mce-toolbar-grp .mce-btn.mce-active *{
 	background: #3e3e3e !important;
 }
+.mce-toolbar-grp .mce-splitbtn.mce-opened *,
 .mce-toolbar-grp .mce-listbox.mce-active *,
 .mce-toolbar-grp .mce-listbox.mce-active:hover *,
 .mce-toolbar-grp .mce-listbox.mce-active:focus *{
