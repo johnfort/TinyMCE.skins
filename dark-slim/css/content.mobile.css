@@ -1,0 +1,24 @@
+/**
+ * Dark Slim skin for TinyMCE 4.9.x
+ * Not supported MS IE!
+ *
+ * @author	John Fort
+ * @date 	13.12.2020
+ * @link 	https://github.com/johnfort/TinyMCE.skins
+ **/
+ 
+.tinymce-mobile-unfocused-selections .tinymce-mobile-unfocused-selection{
+	position: absolute;
+	display: inline-block;
+	background-color: green;
+	opacity: .5;
+}
+body{
+	-webkit-text-size-adjust: none;
+}
+body img{
+	max-width: 96vw;
+}
+body table img{
+	max-width: 95%;
+}

@@ -3,7 +3,7 @@
  * Not supported MS IE!
  *
  * @author	John Fort
- * @date 	28.01.2019
+ * @date 	13.12.2020
  * @link 	https://github.com/johnfort/TinyMCE.skins
  **/
 
@@ -1698,21 +1698,21 @@ i.mce-i-checkbox:before{
 /* Icons */
 @font-face{
 	font-family: 'tinymce';
-	src:	url('../img/scripts/tinymce/tinymce.woff2') format('woff2'),
-			url('../img/scripts/tinymce/tinymce.woff') format('woff'),
-			url('../img/scripts/tinymce/tinymce.svg') format('svg'),
-			url('../img/scripts/tinymce/tinymce.ttf') format('truetype'),
-			url('../img/scripts/tinymce/tinymce.eot') format('embedded-opentype');
+	src:	url('../img/tinymce.woff2') format('woff2'),
+			url('../img/tinymce.woff') format('woff'),
+			url('../img/tinymce.svg') format('svg'),
+			url('../img/tinymce.ttf') format('truetype'),
+			url('../img/tinymce.eot') format('embedded-opentype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'tinymce-small';
-	src:	url('../img/scripts/tinymce/tinymce-small.woff2') format('woff2'),
-			url('../img/scripts/tinymce/tinymce-small.woff') format('woff'),
-			url('../img/scripts/tinymce/tinymce-small.svg') format('svg'),
-			url('../img/scripts/tinymce/tinymce-small.ttf') format('truetype'),
-			url('../img/scripts/tinymce/tinymce-small.eot') format('embedded-opentype');
+	src:	url('../img/tinymce-small.woff2') format('woff2'),
+			url('../img/tinymce-small.woff') format('woff'),
+			url('../img/tinymce-small.svg') format('svg'),
+			url('../img/tinymce-small.ttf') format('truetype'),
+			url('../img/tinymce-small.eot') format('embedded-opentype');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -2168,7 +2168,7 @@ html .mce-abs-layout-item,
 	height: 100%;
 	opacity: .6;
 	zoom: 1;
-	background: #fff url('../img/scripts/tinymce/loader.gif') no-repeat center center;
+	background: #fff url('../img/loader.gif') no-repeat center center;
 }
 .mce-throbber-inline{
 	position: static;
